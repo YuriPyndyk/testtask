@@ -1,0 +1,22 @@
+.table {
+  display: table;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.table__row {
+  display: table-row;
+}
+.table__cell {
+  display: table-cell;
+  min-width: 200px;
+  text-align: center;
+}
+.table__row:nth-child(2n) {
+  background: #eeecec;
+}
+.name-list {
+  text-align: center;
+}
+.name-list li:nth-child(2n + 1) {
+  background: #eeecec;
+}
